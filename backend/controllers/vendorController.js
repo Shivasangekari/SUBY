@@ -41,7 +41,7 @@ const vendorLogin = async (req,res) => {
           res.status(200).json({Success:"Login Successful"})
           console.log(email,token)
     } catch (error) {
-         
+         console.log(error);
     }
 }
 
